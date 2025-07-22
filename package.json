@@ -1,0 +1,24 @@
+{
+    "name": "com.unity.shuriken.shadergraph-examples",
+    "displayName": "Shuriken Particles - Shader Graph Examples",
+    "version": "0.0.1-preview.1",
+    "unity": "6000.2",
+    "description": "Shuriken Particles examples using Shader Graph",
+    "author": {
+        "name": "Fred Moreau",
+        "email": "frederic.moreau@unity3d.com",
+        "url": "https://www.unity3d.com"
+    },
+    "keywords": [
+        "unity",
+        "shader graph",
+        "shuriken",
+        "particles"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:FredMoreau/Shuriken-Particles---Shader-Graph-Examples.git"
+    },
+    "samples": [],
+    "hideInEditor": false
+}
