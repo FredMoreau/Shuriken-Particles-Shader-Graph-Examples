@@ -31,3 +31,6 @@ More examples will be added, using a render pipeline agnostic setup.
 To use a mesh with Shuriken Particles, it must have only one submesh.
 And to use it with Flipbook Blending, its UV1 must be the same as UV0.
 This tool allows creating a Shuriken ready mesh from any other mesh.
+
+To use it, go to
+>Window/Shuriken Particles/Mesh Tool.
