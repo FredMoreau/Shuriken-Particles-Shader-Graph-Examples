@@ -19,6 +19,16 @@
         "type": "git",
         "url": "git@github.com:FredMoreau/Shuriken-Particles-Shader-Graph-Examples.git"
     },
-    "samples": [],
+    "samples": [
+    {
+      "displayName": "URP Only",
+      "description": "Shuriken Particles examples using Shader Graph",
+      "path": "Samples~/URP Only",
+      "dependencies": [
+        "com.unity.render-pipelines.core/Samples~/Common",
+        "com.unity.shuriken.shadergraph-examples/Samples~/Common"
+      ]
+    }
+  ],
     "hideInEditor": false
 }
