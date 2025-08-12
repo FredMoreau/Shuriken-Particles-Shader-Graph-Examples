@@ -670,7 +670,7 @@
     "m_ObjectId": "360e1fba3f4f41f8be00baf79e56b8f3",
     "m_Title": "Particle's UV",
     "m_Position": {
-        "x": -1264.0,
+        "x": -1264.0001220703125,
         "y": 58.0
     }
 }
@@ -1099,7 +1099,7 @@
     "m_PerRendererData": false,
     "m_customAttributes": [],
     "m_Value": {
-        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"a7ff24a0f3bd4dd4aaf9265ba8da09ba\",\"type\":3}}",
+        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"a4786cc158782e24389e15d116a083c7\",\"type\":3}}",
         "m_Guid": ""
     },
     "isMainTexture": true,
@@ -1341,8 +1341,8 @@
     "m_ObjectId": "b38cc08bf08e463696114646958c3b5f",
     "m_Title": "Instancing Setup",
     "m_Position": {
-        "x": -924.9998779296875,
-        "y": -204.0
+        "x": -925.0000610351563,
+        "y": -204.00001525878907
     }
 }
 
@@ -1392,7 +1392,7 @@
     "m_StageCapability": 3,
     "m_BareResource": false,
     "m_Texture": {
-        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"a7ff24a0f3bd4dd4aaf9265ba8da09ba\",\"type\":3}}",
+        "m_SerializedTexture": "",
         "m_Guid": ""
     },
     "m_DefaultType": 0

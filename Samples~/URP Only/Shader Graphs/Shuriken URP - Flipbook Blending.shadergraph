@@ -887,7 +887,7 @@
     "m_StageCapability": 3,
     "m_BareResource": false,
     "m_Texture": {
-        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"a7ff24a0f3bd4dd4aaf9265ba8da09ba\",\"type\":3}}",
+        "m_SerializedTexture": "",
         "m_Guid": ""
     },
     "m_DefaultType": 0
@@ -1251,7 +1251,7 @@
     "m_PerRendererData": false,
     "m_customAttributes": [],
     "m_Value": {
-        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"a7ff24a0f3bd4dd4aaf9265ba8da09ba\",\"type\":3}}",
+        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"a4786cc158782e24389e15d116a083c7\",\"type\":3}}",
         "m_Guid": ""
     },
     "isMainTexture": true,
@@ -1660,8 +1660,8 @@
     "m_ObjectId": "591c839cd0e341a7be02968d4b56b0bf",
     "m_Title": "Flipbook Blending Keyword",
     "m_Position": {
-        "x": -341.9998474121094,
-        "y": 552.9999389648438
+        "x": -342.0,
+        "y": 553.0
     }
 }
 
@@ -1728,8 +1728,8 @@
     "m_ObjectId": "645a49eaf1ce4a76911ebe347937a92e",
     "m_Title": "Instancing Setup",
     "m_Position": {
-        "x": -924.9999389648438,
-        "y": -208.00003051757813
+        "x": -925.0001220703125,
+        "y": -207.99998474121095
     }
 }
 
@@ -2485,8 +2485,8 @@
     "m_ObjectId": "b59dc32c41ea4b1098bded6d6ca2cdb6",
     "m_Title": "Flipbook UVs & Blend",
     "m_Position": {
-        "x": -2092.999755859375,
-        "y": 75.99996185302735
+        "x": -2093.0,
+        "y": 76.0
     }
 }
 
@@ -2502,7 +2502,7 @@
     "m_StageCapability": 3,
     "m_BareResource": false,
     "m_Texture": {
-        "m_SerializedTexture": "{\"texture\":{\"fileID\":2800000,\"guid\":\"a7ff24a0f3bd4dd4aaf9265ba8da09ba\",\"type\":3}}",
+        "m_SerializedTexture": "",
         "m_Guid": ""
     },
     "m_DefaultType": 0

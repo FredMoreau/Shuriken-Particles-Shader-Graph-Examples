@@ -1,6 +1,6 @@
 {
   "displayName": "URP Only",
   "interactiveImport": "false",
-  "description": "",
+  "description": "Shuriken Particles examples using Shader Graph",
   "createSeparatePackage": true
 }
