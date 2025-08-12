@@ -5,7 +5,22 @@ This package contains examples of Shuriken Particles using Shader Graph and GPU 
 
 ![alt text](Documentation~/images/urp-only-examples.png)
 
-From left to right:
+## Setup
+
+### Disclaimer
+Just a heads-up: this stuff is for your research and personal tinkering only. Use it at your own risk – I won't be maintaining or supporting it, and I can't be held responsible for anything that happens from using it.
+
+### Install through the Package Manager
+1. Go to Window/Package Manager.
+2. Click on the + icon and select "Add package from git URL...".
+2. Copy/paste the following url in the field and click on Add. (This requires Git installed)
+- git@github.com:FredMoreau/Shuriken-Particles-Shader-Graph-Examples.git
+- You can also download the repo as a Zip file, unzip it somewhere like C://Unity_Custom_Packages/, then from the Package Manager select Add package from disk, and browse for the package.json file.
+
+## Package Samples
+The package features sample(s), available from the Package Manager.
+
+![alt text](Documentation~/images/package-samples.png)
 
 ### URP Only
 Those shader graphs demonstrate how to support GPU Instancing leveraging URP's default Particle Instancing.
