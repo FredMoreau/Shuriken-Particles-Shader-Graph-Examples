@@ -25,8 +25,13 @@
   "samples": [
     {
       "displayName": "URP Only",
-      "description": "Shuriken Particles examples using Shader Graph",
+      "description": "Shuriken Particles examples using Shader Graph.\nUsing URP Particle Instancing functions.",
       "path": "Samples~/URP Only"
+    },
+    {
+      "displayName": "Cross Pipeline Simple",
+      "description": "Shuriken Particles examples using Shader Graph.\nSame as URP Only but made compatible with HDRP with a simple hack.",
+      "path": "Samples~/Cross Pipeline Simple"
     }
   ],
   "hideInEditor": false
