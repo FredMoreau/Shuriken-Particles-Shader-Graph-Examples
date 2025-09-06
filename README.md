@@ -39,6 +39,9 @@ This shader graph demonstrates the implementation of a custom particle data stru
 #### Stable Random & Custom
 This shader graph demonstrates the implementation of a custom particle data struct with Custom Vertex Stream, to fetch particles' stable random and custom attributes.
 
+### Cross Pipeline Simple
+Same as URP Only but made compatible with HDRP with a simple hack.
+
 ### Cross Pipeline
 More examples will be added, using a render pipeline agnostic setup.
 
