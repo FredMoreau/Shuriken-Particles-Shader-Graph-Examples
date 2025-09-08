@@ -5,6 +5,8 @@
 #define UNITY_PARTICLE_INSTANCING_ENABLED
 #endif
 
+#if defined(UNITY_PARTICLE_INSTANCING_ENABLED)
+
 #ifndef UNITY_PARTICLE_INSTANCE_DATA
 #define UNITY_PARTICLE_INSTANCE_DATA DefaultParticleInstanceData
 
@@ -25,6 +27,8 @@ StructuredBuffer<UNITY_PARTICLE_INSTANCE_DATA> unity_ParticleInstanceData;
 float4 unity_ParticleUVShiftData;
 half unity_ParticleUseMeshColors;
 
+#endif // UNITY_PARTICLE_INSTANCING_ENABLED
+
 void ParticleInstancingSetup()
 {
     
@@ -37,17 +41,6 @@ void ParticleTransform_float(out float4x4 transform)
     transform = float4x4(data.transform, 0, 0, 0, 1);
 #else
     transform = float4x4(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
-#endif
-}
-
-void ParticleAnimFrame_float(uint instanceID, out float frame)
-{
-    UNITY_PARTICLE_INSTANCE_DATA data = unity_ParticleInstanceData[instanceID];
-
-#ifdef UNITY_PARTICLE_INSTANCE_DATA_NO_ANIM_FRAME
-    frame = 0.0;
-#else
-    frame = data.animFrame;
 #endif
 }
 
