@@ -42,8 +42,8 @@ This shader graph demonstrates the implementation of a custom particle data stru
 ### Cross Pipeline Simple
 Same as URP Only but made compatible with HDRP with a simple hack.
 
-### Cross Pipeline
-More examples will be added, using a render pipeline agnostic setup.
+### Cross Pipeline Advanced
+Same examples but using a RP agnostic custom include with no hack.
 
 ### Shuriken Mesh Tool
 To use a mesh with Shuriken Particles, it must have only one submesh.
