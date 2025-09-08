@@ -32,6 +32,11 @@
       "displayName": "Cross Pipeline Simple",
       "description": "Shuriken Particles examples using Shader Graph.\nSame as URP Only but made compatible with HDRP with a simple hack.",
       "path": "Samples~/Cross Pipeline Simple"
+    },
+    {
+      "displayName": "Cross Pipeline Advanced",
+      "description": "Shuriken Particles examples using Shader Graph.\nUsing a RP agnostic custom include.",
+      "path": "Samples~/Cross Pipeline Advanced"
     }
   ],
   "hideInEditor": false

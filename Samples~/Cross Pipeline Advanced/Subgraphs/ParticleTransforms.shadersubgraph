@@ -109,7 +109,14 @@
             "m_Id": "85413178a4e1442f924c675780fcdf07"
         }
     ],
-    "m_StickyNoteDatas": [],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "1b8750300ea04f6f81a6c73afc632fc6"
+        },
+        {
+            "m_Id": "9cf92fa2a06c46528db4e4eed94079a7"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -914,6 +921,26 @@
         "z": 1.0
     },
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "1b8750300ea04f6f81a6c73afc632fc6",
+    "m_Title": "Instancing Include",
+    "m_Content": "Fetching Particle Transform Matrix from ShurikenDefault.hlsl",
+    "m_TextSize": 0,
+    "m_Theme": 1,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1825.0,
+        "y": -637.0,
+        "width": 246.0,
+        "height": 72.38592529296875
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {
@@ -2156,8 +2183,8 @@
     "m_ObjectId": "85413178a4e1442f924c675780fcdf07",
     "m_Title": "Tangent",
     "m_Position": {
-        "x": -1509.0001220703125,
-        "y": 442.00006103515627
+        "x": -1509.0,
+        "y": 442.0
     }
 }
 
@@ -2344,6 +2371,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "9cf92fa2a06c46528db4e4eed94079a7",
+    "m_Title": "Instancing Pragmas",
+    "m_Content": "A passthrough to add\n#pragma instancing_options procedural:ParticleInstancingSetup\n\nand\n#pragma multi_compile_instancing\nfor ScenePicking and SceneSelection passes",
+    "m_TextSize": 0,
+    "m_Theme": 1,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -455.0,
+        "y": -528.0,
+        "width": 212.97979736328126,
+        "height": 143.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.DynamicVectorMaterialSlot",
     "m_ObjectId": "9d8ac4796422484d9913a38b7b1a01ab",
     "m_Id": 1,
@@ -2503,7 +2550,7 @@
     "m_ObjectId": "bdc3baefaf4f41d5bbeaa01a29f601b9",
     "m_Title": "Position",
     "m_Position": {
-        "x": -1509.0001220703125,
+        "x": -1509.0,
         "y": -548.0
     }
 }
@@ -2681,8 +2728,8 @@
     "m_ObjectId": "c9249038112040f792e8ffc5f87855ef",
     "m_Title": "Normal",
     "m_Position": {
-        "x": -1509.0001220703125,
-        "y": -64.0
+        "x": -1509.0,
+        "y": -63.99998474121094
     }
 }
 
