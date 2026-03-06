@@ -45,6 +45,9 @@ Same as URP Only but made compatible with HDRP with a simple hack.
 ### Cross Pipeline Advanced
 Same examples but using a RP agnostic custom include with no hack.
 
+### Cross Pipeline SFRAPI
+Same as **_Cross Pipeline Advanced_** but using the new **_Shader Function Reflection API_** introduced in **Unity 6000.5.0a8**.
+
 ### Shuriken Mesh Tool
 To use a mesh with Shuriken Particles, it must have only one submesh.
 And to use it with Flipbook Blending, its UV1 must be the same as UV0.
